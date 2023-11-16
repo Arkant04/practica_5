@@ -8,3 +8,48 @@
     font-size: 16px;
     font-family: monospace;
 }
+
+
+h1, h2, p {
+  margin-bottom: 1em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+section{
+    width: 100%;
+    background: url(https://media.tenor.com/M63nflRRzgMAAAAM/rjumen-laugh-man.gif);
+    height: 100vh;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emoji{
+    font-size: 6em;
+    background: url(https://media.tenor.com/qMi8DuGsAZYAAAAd/schizo-twitch.gif);
+    padding: 0.5em;
+    user-select: none;
+}
+
+#emoji:hover{
+    font-size: 9em;
+    padding: 0.8em;
+    transition: 500ms;
+    transform: rotate(360deg);
+}
+
+#random_emoji{
+    background: url(https://cdn.pixabay.com/animation/2022/09/27/12/02/12-02-19-627_512.gif);
+}
