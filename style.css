@@ -25,7 +25,7 @@ body{
 
 section{
     width: 100%;
-    background: url(https://media.tenor.com/4e75Fh97wlAAAAAC/emotiguy-bola-amarilla.gif);
+    background: rgb(175, 23, 23);
     height: 100vh;
 }
 
@@ -94,5 +94,9 @@ section{
 }
 
 .color-input{
+    width: 100%;
+}
+
+.gradiant-input{
     width: 100%;
 }

@@ -7,6 +7,7 @@
     <script src="/scripts/emoji.js"></script>
     <script src="/scripts/texto.js"></script>
     <script src="/scripts/color.js"></script>
+    <script src="/scripts/gradiants.js"></script>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,20 +27,34 @@
             <div id="color_output">
               
             </div>
-            <input type="range" min="0" max="255" id="R-input"class ="color-input" oninput="newColor()">
-            <input type="range" min="0" max="255" id="G-input"class ="color-input" oninput="newColor()">
-            <input type="range" min="0" max="255" id="B-input"class ="color-input" oninput="newColor()">
+            <input type="range" min="0" max="255" id="R-input"class ="color-input" onchange="newColor()">
+            <input type="range" min="0" max="255" id="G-input"class ="color-input" onchange="newColor()">
+            <input type="range" min="0" max="255" id="B-input"class ="color-input" onchange="newColor()">
         </div>
     </section>
-    <section id="Gradiant" class="flex-center">
-        <h2>Color RGB</h2>
+    <section id="gradiant" class="flex-center">
+        
         <div class="quarterwidth flex-center">
-            <div id="color_output">
+            <div id="gradiant_back">
               
             </div>
-            <input type="range" min="0" max="255" id="R-input"class ="color-input" oninput="newColor()">
-            <input type="range" min="0" max="255" id="G-input"class ="color-input" oninput="newColor()">
-            <input type="range" min="0" max="255" id="B-input"class ="color-input" oninput="newColor()">
+            <div>
+            <h2>color1</h2>
+            <input type="range" min="0" max="255" id="R1-input"class ="color-input" onchange="newGradiant()">
+            <input type="range" min="0" max="255" id="G1-input"class ="color-input" onchange="newGradiant()">
+            <input type="range" min="0" max="255" id="B1-input"class ="color-input" onchange="newGradiant()">
+
+            </div>
+            <div>
+            <h2>color2</h2>
+            <input type="range" min="0" max="255" id="R2-input"class ="color-input" onchange="newGradiant()">
+            <input type="range" min="0" max="255" id="G2-input"class ="color-input" onchange="newGradiant()">
+            <input type="range" min="0" max="255" id="B2-input"class ="color-input" onchange="newGradiant()">
+            </div>
+            <div>
+            <h2>gradiant</h2>
+            <input type="range" min="0" max="360" id="gradiant-input" class ="color-input" onchange="newGradiant()">
+            </div>
 
 
 
